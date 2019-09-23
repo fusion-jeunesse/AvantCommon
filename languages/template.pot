@@ -1,0 +1,137 @@
+# Translation for the AvantCommon plugin for Omeka Classic.
+# Copyright (C) 2019 Fusion Jeunesse / Youth Fusion
+# This file is distributed under the same license as the Omeka package.
+# José-Nicolas Binette <biguenique@gmail.com>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AvantCommon\n"
+"Report-Msgid-Bugs-To: https://github.com/fusion-jeunesse/AvantCommon\n"
+"POT-Creation-Date: 2019-08-06 15:30+0200\n"
+"PO-Revision-Date: 2019-08-06 15:30-0400\n"
+"Last-Translator: Félix Arseneau <farseneau@fusionjeunesse.org>\n"
+"Language-Team: Français <farseneau@fusionjeunesse.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: AvantCommonPlugin.php:141
+msgid "View Item"
+msgstr ""
+
+#: AvantCommonPlugin.php:142
+msgid "Request Image"
+msgstr ""
+
+#: config_form.php:26
+msgid "The element used to uniquely identify an Item."
+msgstr ""
+
+#: config_form.php:36
+msgid "The element used as an alias for the Item Identifier element."
+msgstr ""
+
+#: config_form.php:46
+msgid "Text that will appear before the identifier or alias."
+msgstr ""
+
+#: config_form.php:56
+msgid "Elements that should not be visible to public users."
+msgstr ""
+
+#: config_form.php:66
+msgid "Elements that are not being used by this installation."
+msgstr ""
+
+#: config_form.php:76
+msgid "Enable the Lightbox feature for displaying images."
+msgstr ""
+
+#: config_form.php:86
+msgid "The URL of the web page to display when a user requests an image."
+msgstr ""
+
+#: models\AvantCommon.php:3
+msgid "Untitled"
+msgstr ""
+
+#: models\AvantCommon.php:4
+msgid "* "
+msgstr ""
+
+#: models\CommonConfig.php:3
+msgid "Identifier Element"
+msgstr ""
+
+#: models\CommonConfig.php:4
+msgid "Identifier Alias"
+msgstr ""
+
+#: models\CommonConfig.php:5
+msgid "Identifier Prefix"
+msgstr ""
+
+#: models\CommonConfig.php:6
+msgid "Enable Lightbox"
+msgstr ""
+
+#: models\CommonConfig.php:7
+msgid "Private Elements"
+msgstr ""
+
+#: models\CommonConfig.php:8
+msgid "Request Image URL"
+msgstr ""
+
+#: models\CommonConfig.php:9
+msgid "Unused Elements"
+msgstr ""
+
+#: models\CommonConfig.php:110
+#, php-format
+msgid "\"%s\" is not an element."
+msgstr ""
+
+#: models\CommonConfig.php:123 models\ConfigOptions.php:40
+#: models\ConfigOptions.php:153
+#, php-format
+msgid "'%s' is not an element."
+msgstr ""
+
+#: models\CommonConfig.php:154
+msgid "Item "
+msgstr ""
+
+#: models\ConfigOptions.php:14
+msgid "Option not available for this installation. "
+msgstr ""
+
+#: models\ConfigOptions.php:15
+msgid "Learn more."
+msgstr ""
+
+#: models\ConfigOptions.php:32
+msgid "A value is required."
+msgstr ""
+
+#: models\ItemPreview.php:3
+msgid "Show larger image of "
+msgstr ""
+
+#: models\ItemPreview.php:4
+msgid "View this item"
+msgstr ""
+
+#: models\ItemPreview.php:347
+msgid "The image for this shared item is not accessible at this time."
+msgstr ""
+
+#: models\ItemPreview.php:391
+msgid "Shared by "
+msgstr ""
+
+#: models\ItemPreview.php:393
+msgid "View Full Item"
+msgstr ""
