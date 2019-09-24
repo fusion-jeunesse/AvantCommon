@@ -1,0 +1,163 @@
+# Translation for the AvantCommon plugin for Omeka Classic.
+# Copyright (C) 2019 Fusion Jeunesse / Youth Fusion
+# This file is distributed under the same license as the Omeka package.
+# José-Nicolas Binette <biguenique@gmail.com>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Omeka-theme-Fusion\n"
+"Report-Msgid-Bugs-To: https://github.com/fusion-jeunesse/AvantCommon\n"
+"POT-Creation-Date: 2019-08-06 15:30+0200\n"
+"PO-Revision-Date: 2019-09-23 22:51-0400\n"
+"Language-Team: Français <farseneau@fusionjeunesse.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr\n"
+
+#: AvantCommonPlugin.php:139
+msgid "View Item"
+msgstr "Voir le contenu"
+
+#: AvantCommonPlugin.php:140
+msgid "Request Image"
+msgstr "Demander l'image"
+
+#: config_form.php:29
+msgid "The element used to uniquely identify an Item."
+msgstr "L'élément utilisé pour identifier un contenu de manière unique."
+
+#: config_form.php:39
+msgid "The element used as an alias for the Item Identifier element."
+msgstr "L'élément utilisé en guise d'alias pour l'élément identificateur du contenu."
+
+#: config_form.php:49
+msgid "Text that will appear before the identifier or alias."
+msgstr "Le texte qui apparaîtra avant l'identificateur ou l'alias."
+
+#: config_form.php:59
+msgid "Elements that should not be visible to public users."
+msgstr "Les éléments qui ne devraient pas être visibles pour les utilisateurs publics."
+
+#: config_form.php:69
+msgid "Elements that are not being used by this installation."
+msgstr "Les éléments qui ne sont pas utilisés par cette installation."
+
+#: config_form.php:79
+msgid "The element used to store the Start year."
+msgstr "L'élément utilisé pour stocker l'année de début."
+
+#: config_form.php:89
+msgid "The element used to store the End year."
+msgstr "L'élément utilisé pour stocker l'année de fin."
+
+#: config_form.php:99
+msgid "Enable the Lightbox feature for displaying images."
+msgstr "Activez la fonction Lightbox pour afficher des images."
+
+#: config_form.php:109
+msgid "The URL of the web page to display when a user requests an image."
+msgstr "L'adresse de la page web à afficher lorsqu'un usager demande une image."
+
+#: models\AvantCommon.php:3
+msgid "Untitled"
+msgstr "Sans titre"
+
+#: models\AvantCommon.php:4
+msgid "* "
+msgstr "* "
+
+#: models\CommonConfig.php:3
+msgid "Identifier Element"
+msgstr "Élément identificateur"
+
+#: models\CommonConfig.php:4
+msgid "Identifier Alias"
+msgstr "Alias de l'identificateur"
+
+#: models\CommonConfig.php:5
+msgid "Identifier Prefix"
+msgstr "Préfixe de l'identificateur"
+
+#: models\CommonConfig.php:6
+msgid "Enable Lightbox"
+msgstr "Autoriser Lightbox"
+
+#: models\CommonConfig.php:7
+msgid "Private Elements"
+msgstr "Éléments privés"
+
+#: models\CommonConfig.php:8
+msgid "Request Image URL"
+msgstr "Demander l'adresse URL de l'image"
+
+#: models\CommonConfig.php:9
+msgid "Unused Elements"
+msgstr "Éléments non-utilisés"
+
+#: models\CommonConfig.php:10
+msgid "Start Year"
+msgstr "Année de début"
+
+#: models\CommonConfig.php:11
+msgid "End Year"
+msgstr "Année de fin"
+
+#: models\CommonConfig.php:151
+#, php-format
+msgid "\"%s\" is not an element."
+msgstr "\"%s\" n'est pas un élément."
+
+#: models\CommonConfig.php:164 models\CommonConfig.php:198
+#: models\CommonConfig.php:205 models\ConfigOptions.php:40
+#: models\ConfigOptions.php:153
+#, php-format
+msgid "'%s' is not an element."
+msgstr "'%s' n'est pas un élément."
+
+#: models\CommonConfig.php:210
+msgid "Both the Start Year and End Year must be specified or both must be blank."
+msgstr "Les années de départ et de fin doivent être toutes deux spécifiées, sinon aucune ne doit l'être."
+
+#: models\CommonConfig.php:211
+msgid "Start Yead and End Year cannot be the same element."
+msgstr "Les années de départ et de fin ne peuvent pas être le même élément."
+
+#: models\CommonConfig.php:223
+msgid "Item "
+msgstr "Contenu "
+
+#: models\ConfigOptions.php:14
+msgid "Option not available for this installation. "
+msgstr "Option non disponible pour cette installation. "
+
+#: models\ConfigOptions.php:15
+msgid "Learn more."
+msgstr "En savoir plus."
+
+#: models\ConfigOptions.php:32
+msgid "A value is required."
+msgstr "Une valeur est requise."
+
+#: models\ItemPreview.php:3
+msgid "Show larger image"
+msgstr "Agrandir l'image"
+
+#: models\ItemPreview.php:4
+msgid "View this item"
+msgstr "Voir ce contenu"
+
+#: models\ItemPreview.php:333
+msgid "The image for this shared item is not accessible at this time."
+msgstr "L'image pour ces éléments partagés n'est pas accessible pour le moment."
+
+#: models\ItemPreview.php:378
+msgid "Shared by "
+msgstr "Partagé par "
+
+#: models\ItemPreview.php:380
+msgid "View Full Item"
+msgstr "Voir le contenu complet"
