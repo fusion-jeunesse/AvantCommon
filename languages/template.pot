@@ -17,39 +17,47 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: AvantCommonPlugin.php:141
+#: AvantCommonPlugin.php:142
 msgid "View Item"
 msgstr ""
 
-#: AvantCommonPlugin.php:142
+#: AvantCommonPlugin.php:143
 msgid "Request Image"
 msgstr ""
 
-#: config_form.php:26
+#: config_form.php:29
 msgid "The element used to uniquely identify an Item."
 msgstr ""
 
-#: config_form.php:36
+#: config_form.php:39
 msgid "The element used as an alias for the Item Identifier element."
 msgstr ""
 
-#: config_form.php:46
+#: config_form.php:49
 msgid "Text that will appear before the identifier or alias."
 msgstr ""
 
-#: config_form.php:56
+#: config_form.php:59
 msgid "Elements that should not be visible to public users."
 msgstr ""
 
-#: config_form.php:66
+#: config_form.php:69
 msgid "Elements that are not being used by this installation."
 msgstr ""
 
-#: config_form.php:76
+#: config_form.php:79
+msgid "The element used to store the Start year."
+msgstr ""
+
+#: config_form.php:89
+msgid "The element used to store the End year."
+msgstr ""
+
+#: config_form.php:99
 msgid "Enable the Lightbox feature for displaying images."
 msgstr ""
 
-#: config_form.php:86
+#: config_form.php:109
 msgid "The URL of the web page to display when a user requests an image."
 msgstr ""
 
@@ -89,18 +97,36 @@ msgstr ""
 msgid "Unused Elements"
 msgstr ""
 
-#: models\CommonConfig.php:110
+#: models\CommonConfig.php:10
+msgid "Start Year"
+msgstr ""
+
+#: models\CommonConfig.php:11
+msgid "End Year"
+msgstr ""
+
+#: models\CommonConfig.php:151
 #, php-format
 msgid "\"%s\" is not an element."
 msgstr ""
 
-#: models\CommonConfig.php:123 models\ConfigOptions.php:40
+#: models\CommonConfig.php:164 models\CommonConfig.php:198
+#: models\CommonConfig.php:205 models\ConfigOptions.php:40
 #: models\ConfigOptions.php:153
 #, php-format
 msgid "'%s' is not an element."
 msgstr ""
 
-#: models\CommonConfig.php:154
+#: models\CommonConfig.php:210
+msgid ""
+"Both the Start Year and End Year must be specified or both must be blank."
+msgstr ""
+
+#: models\CommonConfig.php:211
+msgid "Start Yead and End Year cannot be the same element."
+msgstr ""
+
+#: models\CommonConfig.php:223
 msgid "Item "
 msgstr ""
 
@@ -117,21 +143,21 @@ msgid "A value is required."
 msgstr ""
 
 #: models\ItemPreview.php:3
-msgid "Show larger image of "
+msgid "Show larger image"
 msgstr ""
 
 #: models\ItemPreview.php:4
 msgid "View this item"
 msgstr ""
 
-#: models\ItemPreview.php:347
+#: models\ItemPreview.php:333
 msgid "The image for this shared item is not accessible at this time."
 msgstr ""
 
-#: models\ItemPreview.php:391
+#: models\ItemPreview.php:378
 msgid "Shared by "
 msgstr ""
 
-#: models\ItemPreview.php:393
+#: models\ItemPreview.php:380
 msgid "View Full Item"
 msgstr ""
