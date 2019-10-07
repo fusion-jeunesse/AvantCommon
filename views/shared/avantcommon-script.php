@@ -1,7 +1,7 @@
 <script type="text/javascript">
-var REQUEST_IMAGE_URL = '<?php echo $requestImageUrl; ?>';
-var REQUEST_IMAGE_TEXT = '<?php echo $requestImageText; ?>';
-var ITEM_LINK_TEXT = '<?php echo $itemLinkText; ?>';
+var REQUEST_IMAGE_URL = <?php echo json_encode($requestImageUrl); ?>;
+var REQUEST_IMAGE_TEXT = <?php echo json_encode($requestImageText); ?>;
+var ITEM_LINK_TEXT = <?php echo json_encode($itemLinkText); ?>;
 
 jQuery(document).ready(function()
 {
