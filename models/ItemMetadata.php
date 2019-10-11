@@ -171,9 +171,20 @@ class ItemMetadata
 
     public static function getItemsWithElementValue($elementId, $value)
     {
+        if(is_null($elementId)) return null;
         $sql = ItemSearch::fetchItemsWithElementValue($elementId, $value);
         $db = get_db();
-        $results = $db->query($sql)->fetchAll();
+        try {
+          $results = $db->query($sql)->fetchAll();
+        } catch(Zend_Db_Statement_Mysqli_Exception $e) {
+          echo "Exception: ".$e->getMessage();
+          var_dump(array(
+            'elementId'=>$elementId,
+            'value'=>$value,
+            'sql'=>$sql
+          ));
+          die();
+        }
         return $results;
     }
 
